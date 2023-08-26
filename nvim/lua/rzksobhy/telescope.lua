@@ -4,8 +4,8 @@ local themes = require("telescope.themes")
 
 telescope.setup({
     pickers = {
-        find_files = themes.get_ivy(),
-        grep_string = themes.get_ivy(),
+        --     find_files = themes.get_ivy(),
+        --     grep_string = themes.get_ivy(),
         help_tags = themes.get_dropdown({
             previewer = false,
         }),

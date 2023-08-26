@@ -64,7 +64,7 @@ return require("packer").startup(function(use)
     use("mg979/vim-visual-multi")
     use("stevearc/dressing.nvim")
     use("Shatur/neovim-session-manager")
-    use("nvim-tree/nvim-tree.lua")
+    use("prichrd/netrw.nvim")
 
     -- colortheme
     use("gruvbox-community/gruvbox")

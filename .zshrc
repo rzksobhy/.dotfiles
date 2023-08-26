@@ -27,6 +27,7 @@ bindkey -M menuselect '^[[Z' reverse-menu-complete
 
 # vim-mode
 export ZVM_VI_INSERT_ESCAPE_BINDKEY=^C
+export ZVM_CURSOR_STYLE_ENABLED=false
 source $HOME/.local/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # Use vim keys in tab complete menu:
@@ -38,12 +39,13 @@ bindkey -v '^?' backward-delete-char
 
 # FZF
 export FZF_DEFAULT_OPTS='--layout=default --no-height'
-export FZF_DEFAULT_COMMAND='fd --color=never'
-export FZF_ALT_C_COMMAND='fd --color=never -td'
-source /usr/share/fzf/shell/key-bindings.zsh
+export FZF_DEFAULT_COMMAND='fdfind --color=never'
+export FZF_ALT_C_COMMAND='fdfind --color=never -td'
+source /usr/share/doc/fzf/examples/key-bindings.zsh
 
 # Alias
 alias l='ls -al'
 alias ll='ls -l'
 alias ls='ls --color=auto'
 alias vim=nvim
+alias fd=fdfind

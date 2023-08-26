@@ -1,5 +1,8 @@
 local opts = { noremap = true, silent = true }
 
+-- netrw
+vim.keymap.set("n", "<leader>e", ":Ex<CR>", opts)
+
 -- tabs
 vim.keymap.set("n", "gq", ":tabclose<CR>", opts)
 vim.keymap.set("n", "<TAB>", ":tabnext<CR>", opts)

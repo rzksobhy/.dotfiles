@@ -10,10 +10,10 @@ require("rzksobhy.dap")
 require("rzksobhy.dressing")
 require("rzksobhy.session-manager")
 require("rzksobhy.langs")
-require("rzksobhy.tree")
 
 require("mason").setup()
 require("Comment").setup()
 require("nvim-autopairs").setup()
+require("netrw").setup()
 
 vim.cmd.colorscheme("gruvbox")
