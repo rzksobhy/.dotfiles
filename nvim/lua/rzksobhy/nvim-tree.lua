@@ -162,7 +162,7 @@ nvim_tree.setup({
         show_on_open_dirs = true,
     },
     filters = {
-        git_ignored = true,
+        git_ignored = false,
         dotfiles = false,
         git_clean = false,
         no_buffer = false,

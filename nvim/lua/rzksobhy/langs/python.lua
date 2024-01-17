@@ -6,4 +6,9 @@ lsp["pyright"].setup({
         client.resolved_capabilities.document_formatting = false
         client.server_capabilities.documentFormattingProvider = false
     end,
+    settings = {
+        python = {
+            analysis = { diagnosticMode = "off", typeCheckingMode = "off" },
+        },
+    },
 })

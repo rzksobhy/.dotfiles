@@ -3,13 +3,6 @@ local opts = { noremap = true, silent = true }
 -- netrw
 vim.keymap.set("n", "<leader>e", ":Ex<CR>", opts)
 
--- tabs
-vim.keymap.set("n", "gq", ":tabclose<CR>", opts)
-vim.keymap.set("n", "<TAB>", ":tabnext<CR>", opts)
-vim.keymap.set("n", "<S-TAB>", ":tabprev<CR>", opts)
-vim.keymap.set("n", "<A-Left>", ":tabmove -1<CR>", opts)
-vim.keymap.set("n", "<A-Right>", ":tabmove +1<CR>", opts)
-
 -- window
 vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
 vim.keymap.set("n", "<C-j>", "<C-w>j", opts)
