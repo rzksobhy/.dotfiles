@@ -9,7 +9,6 @@ require("rzksobhy.dressing")
 require("rzksobhy.session-manager")
 require("rzksobhy.langs")
 require("rzksobhy.harpoon")
-require("rzksobhy.nvim-tree")
 
 -- others
 require("mason").setup()

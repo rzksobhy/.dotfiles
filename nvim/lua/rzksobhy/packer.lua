@@ -65,7 +65,6 @@ return require("packer").startup(function(use)
     use("Shatur/neovim-session-manager")
     use("prichrd/netrw.nvim")
     use("ThePrimeagen/harpoon")
-    use("nvim-tree/nvim-tree.lua")
 
     -- colortheme
     use("navarasu/onedark.nvim")

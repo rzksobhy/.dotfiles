@@ -6,6 +6,7 @@ telescope.setup({
     pickers = {
         find_files = {
             hidden = true,
+            find_command = { "fdfind", "--type", "f", "--type", "d" },
         },
         help_tags = themes.get_dropdown({
             previewer = false,

@@ -10,3 +10,11 @@ vim.keymap.set("n", "<S-TAB>", require("harpoon.ui").nav_prev, opts)
 for i = 1, 9 do
     vim.keymap.set("n", "<leader>" .. i, string.format([[:lua require("harpoon.ui").nav_file(%i)<CR>]], i), opts)
 end
+
+require("harpoon").setup({
+    global_settings = {
+        tabline = true,
+        tabline_prefix = "   ",
+        tabline_suffix = "   ",
+    },
+})
