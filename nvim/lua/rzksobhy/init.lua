@@ -16,4 +16,4 @@ require("Comment").setup()
 require("nvim-autopairs").setup()
 require("netrw").setup()
 
-vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("gruvbox")

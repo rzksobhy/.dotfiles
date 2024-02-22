@@ -25,7 +25,7 @@ bindkey -v '^?' backward-delete-char
 bindkey -M menuselect '^[[Z' reverse-menu-complete
 
 # FZF
-export FZF_DEFAULT_OPTS='--layout=default --no-height --color=bg+:#353b45'
+export FZF_DEFAULT_OPTS='--layout=default --no-height'
 export FZF_DEFAULT_COMMAND='fdfind --color=never'
 export FZF_ALT_C_COMMAND='fdfind --color=never -td'
 source /usr/share/doc/fzf/examples/key-bindings.zsh
