@@ -22,7 +22,7 @@ require("nvim-tree").setup({
         files_first = false,
     },
     view = {
-        centralize_selection = false,
+        centralize_selection = true,
         cursorline = true,
         debounce_delay = 15,
         side = "left",
@@ -33,7 +33,7 @@ require("nvim-tree").setup({
         width = 30,
         float = {
             enable = true,
-            quit_on_focus_loss = true,
+            quit_on_focus_loss = false,
             open_win_config = {
                 relative = "editor",
                 border = "rounded",

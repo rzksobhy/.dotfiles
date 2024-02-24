@@ -4,8 +4,8 @@ vim.keymap.set("n", "<leader>a", require("harpoon.mark").add_file, opts)
 
 vim.keymap.set("n", "<leader>h", require("harpoon.ui").toggle_quick_menu, opts)
 
-vim.keymap.set("n", "<C-j>", require("harpoon.ui").nav_next, opts)
-vim.keymap.set("n", "<C-k>", require("harpoon.ui").nav_prev, opts)
+vim.keymap.set("n", "<C-e>", require("harpoon.ui").nav_next, opts)
+vim.keymap.set("n", "<C-q>", require("harpoon.ui").nav_prev, opts)
 
 for i = 1, 9 do
     vim.keymap.set("n", "<leader>" .. i, function()
