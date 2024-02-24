@@ -159,11 +159,6 @@ _G.packer_plugins = {
     path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/neovim-session-manager",
     url = "https://github.com/Shatur/neovim-session-manager"
   },
-  ["netrw.nvim"] = {
-    loaded = true,
-    path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/netrw.nvim",
-    url = "https://github.com/prichrd/netrw.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -199,15 +194,15 @@ _G.packer_plugins = {
     path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-treesitter-textobjects"] = {
-    loaded = true,
-    path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/nvim-treesitter-textobjects",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
@@ -248,6 +243,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-sleuth"] = {
+    loaded = true,
+    path = "/home/sobhy/.local/share/nvim/site/pack/packer/start/vim-sleuth",
+    url = "https://github.com/tpope/vim-sleuth"
   },
   ["vim-visual-multi"] = {
     loaded = true,

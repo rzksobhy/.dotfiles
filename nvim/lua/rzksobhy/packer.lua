@@ -28,7 +28,7 @@ return require("packer").startup(function(use)
 
     -- treesitter
     use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
-    use("nvim-treesitter/nvim-treesitter-textobjects")
+    -- use("nvim-treesitter/nvim-treesitter-textobjects")
 
     -- completion
     use("hrsh7th/nvim-cmp")
@@ -63,8 +63,9 @@ return require("packer").startup(function(use)
     use("mg979/vim-visual-multi")
     use("stevearc/dressing.nvim")
     use("Shatur/neovim-session-manager")
-    use("prichrd/netrw.nvim")
     use("ThePrimeagen/harpoon")
+    use("tpope/vim-sleuth")
+    use("nvim-tree/nvim-tree.lua")
 
     -- colortheme
     use("navarasu/onedark.nvim")

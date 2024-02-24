@@ -24,7 +24,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
         vim.keymap.set("n", "<leader>la", vim.lsp.buf.code_action, bufopts)
         vim.keymap.set("n", "<leader>ld", vim.diagnostic.open_float)
 
-        -- formatting
         if client.server_capabilities.documentFormattingProvider then
             local format = function()
                 vim.lsp.buf.format({ async = true })

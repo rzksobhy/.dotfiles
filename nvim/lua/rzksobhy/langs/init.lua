@@ -14,6 +14,7 @@ require("rzksobhy.langs.rust")
 require("rzksobhy.langs.lua")
 require("rzksobhy.langs.ts")
 require("rzksobhy.langs.python")
+require("rzksobhy.langs.flutter")
 
 lsp["bashls"].setup({})
 lsp["docker_compose_language_service"].setup({})
