@@ -6,6 +6,7 @@ require("rzksobhy.langs.null-ls")
 -- adapters
 require("rzksobhy.langs.lldb")
 require("rzksobhy.langs.delve")
+require("rzksobhy.langs.node2")
 
 -- languages
 require("rzksobhy.langs.c")
