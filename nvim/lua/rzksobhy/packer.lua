@@ -66,6 +66,7 @@ return require("packer").startup(function(use)
     use("ThePrimeagen/harpoon")
     use("tpope/vim-sleuth")
     use("nvim-tree/nvim-tree.lua")
+    use("prichrd/netrw.nvim")
 
     -- colortheme
     use("navarasu/onedark.nvim")

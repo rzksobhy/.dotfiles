@@ -1,5 +1,8 @@
 local opts = { noremap = true, silent = true }
 
+-- netrw
+vim.keymap.set("n", "<leader>e", ":Ex<CR>", opts)
+
 -- indent
 vim.keymap.set("n", "<", "<<", opts)
 vim.keymap.set("n", ">", ">>", opts)
